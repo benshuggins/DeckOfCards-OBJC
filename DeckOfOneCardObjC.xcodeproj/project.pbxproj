@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEABEE35221399FB00FA2CA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABEE34221399FB00FA2CA7 /* AppDelegate.m */; };
+		CEABEE3B221399FB00FA2CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEABEE39221399FB00FA2CA7 /* Main.storyboard */; };
+		CEABEE3D221399FC00FA2CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEABEE3C221399FC00FA2CA7 /* Assets.xcassets */; };
+		CEABEE40221399FC00FA2CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEABEE3E221399FC00FA2CA7 /* LaunchScreen.storyboard */; };
+		CEABEE43221399FC00FA2CA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABEE42221399FC00FA2CA7 /* main.m */; };
+		CEABEE4B22139C7700FA2CA7 /* DVMCards.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABEE4A22139C7700FA2CA7 /* DVMCards.m */; };
+		CEABEE512213BF2600FA2CA7 /* DVMCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABEE502213BF2600FA2CA7 /* DVMCardController.m */; };
+		CEABEE592213C7C900FA2CA7 /* DVMCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABEE582213C7C900FA2CA7 /* DVMCardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEABEE30221399FB00FA2CA7 /* DeckOfOneCardObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckOfOneCardObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEABEE33221399FB00FA2CA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEABEE34221399FB00FA2CA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEABEE3A221399FB00FA2CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEABEE3C221399FC00FA2CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEABEE3F221399FC00FA2CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEABEE41221399FC00FA2CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEABEE42221399FC00FA2CA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEABEE4922139C7700FA2CA7 /* DVMCards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCards.h; sourceTree = "<group>"; };
+		CEABEE4A22139C7700FA2CA7 /* DVMCards.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCards.m; sourceTree = "<group>"; };
+		CEABEE4F2213BF2600FA2CA7 /* DVMCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCardController.h; sourceTree = "<group>"; };
+		CEABEE502213BF2600FA2CA7 /* DVMCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCardController.m; sourceTree = "<group>"; };
+		CEABEE572213C7C900FA2CA7 /* DVMCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCardViewController.h; sourceTree = "<group>"; };
+		CEABEE582213C7C900FA2CA7 /* DVMCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEABEE2D221399FB00FA2CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEABEE27221399FB00FA2CA7 = {
+			isa = PBXGroup;
+			children = (
+				CEABEE32221399FB00FA2CA7 /* DeckOfOneCardObjC */,
+				CEABEE31221399FB00FA2CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEABEE31221399FB00FA2CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEABEE30221399FB00FA2CA7 /* DeckOfOneCardObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEABEE32221399FB00FA2CA7 /* DeckOfOneCardObjC */ = {
+			isa = PBXGroup;
+			children = (
+				CEABEE4D2213BED300FA2CA7 /* View */,
+				CEABEE3C221399FC00FA2CA7 /* Assets.xcassets */,
+				CEABEE4E2213BEEB00FA2CA7 /* Resources */,
+				CEABEE42221399FC00FA2CA7 /* main.m */,
+				CEABEE562213C76800FA2CA7 /* ViewControllers */,
+				CEABEE522213C5BE00FA2CA7 /* ModelControllers */,
+				CEABEE4C2213BECA00FA2CA7 /* Model */,
+			);
+			path = DeckOfOneCardObjC;
+			sourceTree = "<group>";
+		};
+		CEABEE4C2213BECA00FA2CA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEABEE4922139C7700FA2CA7 /* DVMCards.h */,
+				CEABEE4A22139C7700FA2CA7 /* DVMCards.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEABEE4D2213BED300FA2CA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEABEE39221399FB00FA2CA7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEABEE4E2213BEEB00FA2CA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEABEE33221399FB00FA2CA7 /* AppDelegate.h */,
+				CEABEE34221399FB00FA2CA7 /* AppDelegate.m */,
+				CEABEE3E221399FC00FA2CA7 /* LaunchScreen.storyboard */,
+				CEABEE41221399FC00FA2CA7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEABEE522213C5BE00FA2CA7 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEABEE4F2213BF2600FA2CA7 /* DVMCardController.h */,
+				CEABEE502213BF2600FA2CA7 /* DVMCardController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		CEABEE562213C76800FA2CA7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEABEE572213C7C900FA2CA7 /* DVMCardViewController.h */,
+				CEABEE582213C7C900FA2CA7 /* DVMCardViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEABEE2F221399FB00FA2CA7 /* DeckOfOneCardObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEABEE46221399FC00FA2CA7 /* Build configuration list for PBXNativeTarget "DeckOfOneCardObjC" */;
+			buildPhases = (
+				CEABEE2C221399FB00FA2CA7 /* Sources */,
+				CEABEE2D221399FB00FA2CA7 /* Frameworks */,
+				CEABEE2E221399FB00FA2CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckOfOneCardObjC;
+			productName = DeckOfOneCardObjC;
+			productReference = CEABEE30221399FB00FA2CA7 /* DeckOfOneCardObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEABEE28221399FB00FA2CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DVM;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CEABEE2F221399FB00FA2CA7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CEABEE2B221399FB00FA2CA7 /* Build configuration list for PBXProject "DeckOfOneCardObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEABEE27221399FB00FA2CA7;
+			productRefGroup = CEABEE31221399FB00FA2CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEABEE2F221399FB00FA2CA7 /* DeckOfOneCardObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEABEE2E221399FB00FA2CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABEE40221399FC00FA2CA7 /* LaunchScreen.storyboard in Resources */,
+				CEABEE3D221399FC00FA2CA7 /* Assets.xcassets in Resources */,
+				CEABEE3B221399FB00FA2CA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEABEE2C221399FB00FA2CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABEE592213C7C900FA2CA7 /* DVMCardViewController.m in Sources */,
+				CEABEE43221399FC00FA2CA7 /* main.m in Sources */,
+				CEABEE35221399FB00FA2CA7 /* AppDelegate.m in Sources */,
+				CEABEE4B22139C7700FA2CA7 /* DVMCards.m in Sources */,
+				CEABEE512213BF2600FA2CA7 /* DVMCardController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEABEE39221399FB00FA2CA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEABEE3A221399FB00FA2CA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEABEE3E221399FC00FA2CA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEABEE3F221399FC00FA2CA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEABEE44221399FC00FA2CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEABEE45221399FC00FA2CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEABEE47221399FC00FA2CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DMFD3YYQW;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCardObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.checklists.DeckOfOneCardObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEABEE48221399FC00FA2CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DMFD3YYQW;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCardObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.checklists.DeckOfOneCardObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEABEE2B221399FB00FA2CA7 /* Build configuration list for PBXProject "DeckOfOneCardObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABEE44221399FC00FA2CA7 /* Debug */,
+				CEABEE45221399FC00FA2CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEABEE46221399FC00FA2CA7 /* Build configuration list for PBXNativeTarget "DeckOfOneCardObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABEE47221399FC00FA2CA7 /* Debug */,
+				CEABEE48221399FC00FA2CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEABEE28221399FB00FA2CA7 /* Project object */;
+}
